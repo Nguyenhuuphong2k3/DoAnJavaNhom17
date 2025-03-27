@@ -50,36 +50,36 @@
                 </li>
                 <li class="nav-item" sec:authorize="hasAnyAuthority('ADMIN')">
                     <a th:href="@{/order/history}" class="nav-link">Lịch sử ĐH</a>
-<!--                    <a th:href="@{/orders/history}">Lịch sử đơn hàng</a>-->
+                    <!--                    <a th:href="@{/orders/history}">Lịch sử đơn hàng</a>-->
                 </li>
                 <li class="dropdown"><a href="#"><span>Danh mục</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
                         <li class="dropdown"><a href="#"><span>Áo</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#">Áo Hoodie</a></li>
-                                <li><a href="#">Áo thun</a></li>
-                                <li><a href="#">Áo sơ mi</a></li>
+                                <li><a href="/products/view/1">Áo Hoodie</a></li>
+                                <li><a href="/products/view/2">Áo thun</a></li>
+                                <li><a href="/products/view/3">Áo sơ mi</a></li>
                             </ul>
                         </li>
                         <li class="dropdown"><a href="#"><span>Quần</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#">Quần Kaki</a></li>
-                                <li><a href="#">Quần Tây âu</a></li>
-                                <li><a href="#">Quần Jean</a></li>
+                                <li><a href="/products/view/5">Quần Kaki</a></li>
+                                <li><a href="/products/view/4">Quần Tây âu</a></li>
+                                <li><a href="/products/view/6">Quần Jean</a></li>
                             </ul>
                         </li>
                         <li class="dropdown"><a href="#"><span>Giày</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#">Giày Jordan</a></li>
-                                <li><a href="#">Giày Sneaker</a></li>
-                                <li><a href="#">Giày Bata</a></li>
+                                <li><a href="/products/view/8">Giày Jordan</a></li>
+                                <li><a href="/products/view/12">Giày Sneaker</a></li>
+                                <li><a href="/products/view/10">Giày Bata</a></li>
                             </ul>
                         </li>
                         <li class="dropdown"><a href="#"><span>Đồ trang sức</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#">Dây chuyền</a></li>
-                                <li><a href="#">Vòng tay</a></li>
-                                <li><a href="#">Đồng hồ</a></li>
+                                <li><a href="/products/view/9">Dây chuyền</a></li>
+                                <li><a href="/products/view/11">Vòng tay</a></li>
+                                <li><a href="/products/view/7">Đồng hồ</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -121,7 +121,7 @@
                     <h1>Thời Trang Chính Hãng</h1>
                     <p>Uy tín làm nên thương hiệu</p>
                     <div class="d-flex">
-                        <a href="#stats" class="btn-get-started">Khám phá ngay!</a>
+                        <a href="#portfolio" class="btn-get-started">Khám phá ngay!</a>
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -161,7 +161,7 @@
                             <div class="portfolio-info">
                                 <h4>Áo Hoodie</h4>
                                 <a href="images/20230729_r9mvJ1o6SE.jpeg" title="Áo Hoodie" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/1" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
@@ -172,7 +172,7 @@
                             <div class="portfolio-info">
                                 <h4>Quần Tây âu</h4>
                                 <a href="images/quantay.webp" title="Quần Tây âu" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/4" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
@@ -183,7 +183,7 @@
                             <div class="portfolio-info">
                                 <h4>Giày Jordan</h4>
                                 <a href="images/jordan.webp" title="Giày Jordan" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/8" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
@@ -194,7 +194,7 @@
                             <div class="portfolio-info">
                                 <h4>Vòng tay</h4>
                                 <a href="images/vtay.jpg" title="Vòng tay" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/11" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
@@ -205,7 +205,7 @@
                             <div class="portfolio-info">
                                 <h4>Áo sơ mi trắng</h4>
                                 <a href="images/somi.webp" title="Áo sơ mi trắng" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/3" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
@@ -216,7 +216,7 @@
                             <div class="portfolio-info">
                                 <h4>Quần Kaki</h4>
                                 <a href="images/kaki.webp" title="Quần Kaki" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/5" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
@@ -227,7 +227,7 @@
                             <div class="portfolio-info">
                                 <h4>Giày Sneaker</h4>
                                 <a href="images/sneaker.jpg" title="Giày Sneaker" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/12" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
@@ -238,7 +238,7 @@
                             <div class="portfolio-info">
                                 <h4>Dây chuyền</h4>
                                 <a href="images/daychuyen.jpg" title="Dây chuyền" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/9" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
@@ -249,7 +249,7 @@
                             <div class="portfolio-info">
                                 <h4>Áo thun</h4>
                                 <a href="images/thun.webp" title="Áo thun" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/2" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
@@ -260,7 +260,7 @@
                             <div class="portfolio-info">
                                 <h4>Quần Jean</h4>
                                 <a href="images/jean.jpeg" title="Quần Jean" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/6" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
@@ -271,7 +271,7 @@
                             <div class="portfolio-info">
                                 <h4>Giày Bata</h4>
                                 <a href="images/giaybata.jpg" title="Giày Bata" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/10" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
@@ -282,7 +282,7 @@
                             <div class="portfolio-info">
                                 <h4>Đồng hồ</h4>
                                 <a href="images/dho.jpg" title="Đồng hồ" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <a href="/products/view/7" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Portfolio Item -->
